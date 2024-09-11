@@ -1,64 +1,165 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
+    <style>
+      .class1 {
+        border: 2px solid rgb(9, 245, 115);
+        background-color: black;
 
-    h1{text-align: center;}
-    p{text-align: center;}
-    pre{text-align: center;}
-    div{text-align: center;}
+        padding-top: 20px;
+        margin-top: 80px;
+        margin-left: 80px;
+        height: 200px;
+        width: 50px;
+      }
+      .cd {
+        border: 2px solid black;
+        border: 2px solid rgb(212, 18, 18);
+        border: 2px solid rgb(130, 10, 243);
+        border-radius: 100px;
+        padding-top: 30px;
+      }
+      .cd1 {
+        border-top: -90px;
+        background-color: rgba(14, 245, 6, 0.849);
+
+        padding-bottom: 20px;
+      }
+      .cd2 {
+        background-color: rgb(255, 35, 6);
+        margin-top: 10px;
+
+        padding-bottom: 20px;
+      }
+      .cd3 {
+        background-color: rgb(252, 207, 6);
+        padding-bottom: 20px;
+        margin-top: 10px;
+      }
+      .cd4 {
+        border: 2px solid rgb(14, 221, 107);
+        padding-top: 70px;
+        height: 40px;
+        width: 10px;
+        background-color: black;
+        margin-left: 100px;
+      }
+      .class2 {
+        border: 2px solid rgb(240, 250, 250);
+        width: 220px;
+        height: 180px;
+        margin-top: 60px;
+        margin-left: 60px;
+      }
+      #id1 {
+        background-color: orange;
+        padding: 30px;
+      }
+      #id2 {
+        background-color: rgb(118, 118, 224);
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        margin-left: 75px;
+        padding: 10px;
+      }
+
+      #id3 {
+        background-color: green;
+        padding: 30px;
+      }
+      .cd5 {
+        border: 2px solid rgb(241, 6, 6);
+        padding-top: 10px;
+        height: 40px;
+        width: 5px;
+        background-color: rgb(18, 18, 19);
+        margin-left: 60px;
+      }
+      .cd6,
+      .cd7 {
+        border: 2px solid rgb(240, 11, 11);
+        width: 300px;
+      }
+      .class3,
+      .cd8,
+      .cd9,
+      .cd10,
+      #id4 {
+        border: 2px solid rgb(231, 7, 7);
+      }
+      .class3 {
+        background-color: rgb(252, 13, 13);
+        /* margin-top: 80px;
+        margin-left: 80px; */
+        width: 500px;
+        height: 500px;
+        border-radius: 500px;
+      }
+      .cd8 {
+        background-color: rgb(35, 233, 9);
+        margin:20px 20px;
+        width: 450px;
+        height: 450px;
+        border-radius: 400px;
+      }
+      .cd9 {
+        background-color: blue;
+        margin: 50px 50px;
+
+         width: 360px;
+        height: 360px;
+        border-radius: 380px;
+      }
+      .cd10 {
+        background-color: rgb(216, 11, 243);
+        margin: 50px 50px;
+         height: 250px;
+        width: 250px;
+        border-radius: 350px;
+      }
+      #id4 {
+        margin: 50px 50px;
+        background-color: rgb(234, 250, 12);
+         height: 160px;
+        width: 156px;
+        border-radius: 350px;
+      }
+      h1{
+       color:rgba(231, 174, 17, 0.705);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-style: oblique; background-color: aqua;"><u>TRAFFIC LIGHT</u></h1>
+ <div class="class1">
+      <div class="cd cd1"></div>
+      <div class="cd cd2"></div>
+      <div class="cd cd3"></div>
+    </div>
+    <div class="cd4"></div>
+    <div class="cd7"></div><br>
+    <h1 style="background-color: rgb(11, 247, 62);"><u>INDIAN FLAG</u></h1>
+    <div class="class2">
+      <div id="id1"></div>
+      <div id="id2"></div>
+      <div id="id3"></div>
+    </div>
     
-</style>
-<body style="background-color: antiquewhite;"> 
-    <h1>SRA EDUTECH PVT.LTD.</h1>
-    <pre>MIG-214 2nd floor above icici bank road number1 kphb colony kukatpally 
-         hyderabad.telangana-500072|
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd2HQ4Dg-lKpde8spteOVR5YuAuQDhhrQlsA&s" height="200" width="200">"
-    </pre><br>
-    <h1 style="background-color: rgb(197, 241, 138);"><u>REGISTRATION FORM</u></h1>
-    <form>
-    <label style="background-color: rgb(217, 214, 231);" for="sur name">sur name</label>
-    <input type="name" id="first name" name="first name"> <br><br>
-    <label style="background-color: bisque;" for="last name">last name</label>
-    <input type="name" id="last name" name="last name"><br><br>
-    <input type="submit" value="succes"/><br><br>
-    <label style="background-color: antiquewhite;" for="enter mobile numnber">enter mobile number</label>
-    <input type="tell" id="phone" name="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{3}" required><br><br>
-    <label style="background-color: rgb(239, 243, 198);" for="email">email</label>
-    <input type="email" id="@gmail.com" name="@gmail.com" placeholder="@gmail.com"><br><br>
-    <label style="background-color: blanchedalmond;" for="adhar details">adhar details</label>
-    <input type="adhar" id="adhar no" name="adhar no" placeholder="1234-1234-1234" pattern="[0-9]"><br><br>
-    <label style="background-color: rgb(166, 233, 233);" for="date of biurth">date of birth</label>
-    <input type="date" id="DOB" name="DOB" placeholder="12/06/2001" pattern="[0-9]"><br><br>
-    <label style="background-color: antiquewhite;" for="pan no">pan no</label>
-    <input type="pan" id="pan no" name="pan no" placeholder="eg 12345-12345" pattern="[0-9]{5}[a-z]{5}"><br><br>
-    <label style="background-color: rgb(206, 193, 253);" for="choose gender">choose gender</label><hr>
-    <input type="radio" name="boy" value="boy">male
-    <input type="radio" name="girl" value="girl">female
-    <input type="radio" name="trangender" value="transgende">other<hr>
-    <label style="background-color: rgb(180, 245, 245);" for="year of passing">year of passing</label>
-    <input type="month" id="year os passed" name="year of passed"><br><br>
-    <label style="background-color: rgb(177, 253, 253);" for="skill">skills</label>
-    <input type="radio" id="html">html
-    <input type="radio" id="css">css
-    <input type="radio" id="java script">java <script></script>
-    </form>
-    <h4> FORM ATTRIBUTE HTML </h4>
-    </h4>
-    <button type="button" id="Submit" style="color: rgb(89, 6, 245);">Submit</button>
-    <button type="button" id="Cancel" style="color: rgba(236, 13, 87, 0.856);">Cancel</button>
-    <button type="=button" id="start" style="color: blue;">start</button>
-    <button type="button" id="search" style="color: purple(346, 15, 92, 1.856);">search</button>
-    </body>
-
-</body>
-
-
-   
-    
-</body>
+    <div class="cd5"></div>
+    <div class="cd6"></div><br>
+    <h1 style="background-color: chartreuse;"><u>Archery Board</u></h1>
+    <div class="class3">
+      <div class="cd8">
+        <div class="cd9">
+          <div class="cd10"><div id="id4"></div></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
